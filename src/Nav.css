@@ -1,0 +1,37 @@
+.nav{
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    height: 25px;
+    z-index: 1;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+.nav__logo{
+    position: fixed;
+    left: 20px;
+    object-fit: contain;
+    height: 30px;
+}
+.nav__avatar{
+    position: fixed;
+    right: 40px;
+    object-fit: contain;
+    height: 27px;
+    border-radius: 2px;
+}
+.nav__downArrow{
+    position: fixed;
+    right: 20px;
+    object-fit: contain;
+    height: 6.5px;
+    border-radius: 2px; 
+    color: white; 
+}
+.nav__black{
+    background-color: #111;
+}

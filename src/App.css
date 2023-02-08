@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #111;
+}
+
+footer{
+  height: 50px;
+  color: grey;
+  padding: 20px;
+}
+
+.footer__social{
+  color: rgb(169, 169, 169);
+}
